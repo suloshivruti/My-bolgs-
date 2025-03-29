@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Font Renderer</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>3D Font Generator</h1>
+        <input type="text" id="textInput" placeholder="Enter your text" />
+        <input type="color" id="colorPicker" value="#ff6347" />
+        <input type="range" id="sizeSlider" min="50" max="200" value="100" />
+        <button id="generateButton">Generate 3D Font</button>
+        <canvas id="threeCanvas"></canvas>
+        <img id="outputImage" alt="Rendered 3D Font" />
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
